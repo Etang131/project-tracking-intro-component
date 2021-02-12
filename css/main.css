@@ -1,5 +1,81 @@
+.heroTagline {
+  display: flex;
+  justify-content: space-between;
+  width: 284px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+.newLabel {
+  background-color: #242942;
+  border-radius: 12.5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 3px 4px;
+  height: 25px;
+}
+
+.lightText {
+  font-family: "Barlow Condensed" 15/16;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 5px;
+  color: #242942;
+  opacity: 0.5;
+}
+
+h1 {
+  color: #242942;
+  font-family: "Barlow Condensed";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.mainText {
+  color: #242942;
+  font-family: "Barlow";
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  opacity: 0.75;
+}
+
 .signUpSection {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
   width: 300px;
+  font-family: "Barlow Condensed";
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #ff5e5e;
+  color: #ffffff;
+  width: 153px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  letter-spacing: 0.933333px;
+}
+
+.signUpTagline {
+  color: #242942;
+  opacity: 0.5;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  width: 124px;
+  height: 17px;
 }
 
 .attribution {
