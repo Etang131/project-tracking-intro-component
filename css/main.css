@@ -1,9 +1,25 @@
+body {
+  background-image: url("/images/illustration-devices.svg");
+  background-position-x: left;
+  background-position-y: 100px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-image: url("/images/logo.svg"), url("/images/icon-hamburger.svg");
+  background-position: top left, top right;
+  background-position-y: 25px, 35px;
+  background-repeat: no-repeat;
+  margin: 0 8%;
+}
+
 .heroTagline {
   display: flex;
   justify-content: space-between;
   width: 284px;
   height: 25px;
-  margin: 0 auto;
+  margin: 395px 0 0 0;
 }
 
 .newLabel {
@@ -36,6 +52,7 @@ h1 {
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 2.5rem;
+  margin-top: 15px;
 }
 
 .mainText {
@@ -45,26 +62,29 @@ h1 {
   font-size: 1.125rem;
   line-height: 1.625rem;
   opacity: 0.75;
+  margin-top: 20px;
 }
 
 .signUpSection {
   display: flex;
-  justify-content: space-between;
-  height: 40px;
-  width: 300px;
   font-family: "Barlow Condensed";
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 button {
+  border-radius: 5px;
+  border: none;
   background-color: #ff5e5e;
   color: #ffffff;
   width: 153px;
+  height: 40px;
   font-style: normal;
   font-weight: bold;
-  font-size: 0.875rem;
+  font-size: 0.775rem;
   line-height: 1.0625rem;
   letter-spacing: 0.933333px;
+  text-transform: uppercase;
 }
 
 .signUpTagline {
@@ -72,15 +92,15 @@ button {
   opacity: 0.5;
   letter-spacing: 2.5px;
   font-style: normal;
-  font-size: 0.875rem;
+  font-size: 0.775rem;
   line-height: 1.0625rem;
-  width: 124px;
-  height: 17px;
+  padding-left: 10px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 25px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
