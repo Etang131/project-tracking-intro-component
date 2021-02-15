@@ -1,18 +1,19 @@
 body {
-  background-image: url("/images/illustration-devices.svg");
-  background-position-x: left;
-  background-position-y: 100px;
-  background-size: 150%;
-  background-repeat: no-repeat;
-}
-
-.container {
   background-image: url("/images/logo.svg"), url("/images/icon-hamburger.svg");
   background-position: top left, top right;
+  background-position-x: 5%, 95%;
   background-position-y: 25px, 35px;
   background-repeat: no-repeat;
   margin: 0 8%;
 }
+
+/* .container {
+  background-image: url("/images/illustration-devices.svg");
+  background-position-x: left;
+  background-position-y: -200px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+} */
 
 .heroTagline {
   display: flex;
