@@ -7,20 +7,27 @@ body {
   margin: 0 8%;
 }
 
-/* .container {
+.laptopBackground {
   background-image: url("/images/illustration-devices.svg");
   background-position-x: left;
-  background-position-y: -200px;
-  background-size: 150%;
+  background-position-y: 100px;
+  background-size: contain;
   background-repeat: no-repeat;
-} */
+  height: 339px;
+  width: 482px;
+}
+
+.hamburgerModal {
+  width: 311px;
+  height: 233px;
+}
 
 .heroTagline {
   display: flex;
   justify-content: space-between;
   width: 284px;
   height: 25px;
-  margin: 395px 0 0 0;
+  margin: 75px 0 0 0;
 }
 
 .newLabel {
