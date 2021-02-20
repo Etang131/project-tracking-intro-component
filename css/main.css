@@ -1,11 +1,67 @@
-body {
+/* body {
   background-image: url("/images/logo.svg"), url("/images/icon-hamburger.svg");
   background-position: top left, top right;
   background-position-x: 5%, 95%;
   background-position-y: 25px, 35px;
   background-repeat: no-repeat;
   margin: 0 8%;
+} */
+
+.nav {
+  width: 311px;
+  height: 24px;
+  margin: 38px auto 0 auto;
 }
+
+.logo {
+  background-image: url("/images/logo.svg");
+  background-position: top left;
+  background-position-x: 5%;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+}
+
+.burger {
+  background-image: url("/images/icon-hamburger.svg");
+  background-position: top right;
+  background-position-x: 95%;
+  background-position-y: 35px;
+  background-repeat: no-repeat;
+  background-size: 24px 16px;
+}
+
+/*Start of mobile model styles*/
+.hamburgerModal {
+  display: none;
+  margin-top: 75px;
+  width: 311px;
+  height: 233px;
+}
+
+.hamburgerModal li {
+  color: #242942;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.2px;
+  padding-top: 25px;
+}
+
+.hamburgerModal hr {
+  opacity: 0.5;
+}
+
+.hamburgerModal li:nth-child(3) {
+  padding-bottom: 20px;
+}
+
+.hamburgerModal li:hover {
+  opacity: 0.5;
+}
+
+/*End of mobile model styles*/
 
 .laptopBackground {
   background-image: url("/images/illustration-devices.svg");
@@ -15,11 +71,6 @@ body {
   background-repeat: no-repeat;
   height: 339px;
   width: 482px;
-}
-
-.hamburgerModal {
-  width: 311px;
-  height: 233px;
 }
 
 .heroTagline {
